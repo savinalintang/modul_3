@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Test from './Test';
 import HelloComponent from './component/HelloComponent';
 import Login from './Login';
-//import Register from './Register';
+import Register from './Register';
 
 //const HelloComponent = () =>{
 //   return HelloComponent
@@ -25,7 +25,7 @@ import Login from './Login';
 //ReactDOM.render(<Test />, document.getElementById('root'));
 //ReactDOM.render(<HelloComponent />, document.getElementById('root'));
 ReactDOM.render(<Login />, document.getElementById('root'));
-//ReactDOM.render(<Register />, document.getElementById('root'));
+ReactDOM.render(<Register />, document.getElementById('root'));
 
 // ReactDOM.render(
 // <React.StrictMode>
